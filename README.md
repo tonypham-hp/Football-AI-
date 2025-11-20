@@ -5,7 +5,7 @@ The project was trained and deployed using **Google Colab**, **Kaggle GPUs**, an
 
 ---
 
-## 🚀 Project Overview
+##  Project Overview
 
 This AI system aims to analyze football videos by:
 - Detecting **players**, **referees**, and **balls** in the field.
@@ -15,7 +15,7 @@ This AI system aims to analyze football videos by:
 
 
 
-## 📓 Google Colab Notebook  
+##  Google Colab Notebook  
 To view the full code with outputs, run or edit the notebook directly in Google Colab:
 
 ➡️ **Open in Google Colab:**  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1W9c71_TYUJc0-MjhrRP1LymfZNRUZiDW?usp=sharing)
@@ -23,7 +23,7 @@ To view the full code with outputs, run or edit the notebook directly in Google 
 
 
 
-## 🧠 Models
+## Models
 
 ### 1. Ball, Players, and Referees Detection  
 **Model:** YOLOv8 (Kaggle – GPU T4 x2)
@@ -38,7 +38,7 @@ To view the full code with outputs, run or edit the notebook directly in Google 
 - **Public Model Page:** [Roboflow Universe](https://universe.roboflow.com/tonyphamnp/football-field-detection-f07vi-okdo7/model/1)
 
 
-## 🗂️ Dataset
+##  Dataset
 
 Both datasets were collected and annotated via **Roboflow**.
 
@@ -47,7 +47,7 @@ Both datasets were collected and annotated via **Roboflow**.
 | `football-players-detection` | Includes images with bounding boxes for **players**, **referees**, and **balls** | [![Roboflow Dataset](https://img.shields.io/badge/Roboflow-Dataset-purple?logo=roboflow&logoColor=white)](https://app.roboflow.com/tonyphamnp/football-players-detection-3zvbc)
 | `football-field-detection` | Includes images labeled with **keypoints** of the football pitch (lines, corners, center, etc.) | [![Roboflow Dataset](https://img.shields.io/badge/Roboflow-Dataset-purple?logo=roboflow&logoColor=white)](https://app.roboflow.com/tonyphamnp/football-field-detection-f07vi) |
 
-## 🏋️‍♂️ Training
+##  Training
 
 The models were trained with:
 - **Framework:** Ultralytics YOLOv8
