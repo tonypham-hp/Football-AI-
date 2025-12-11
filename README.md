@@ -6,7 +6,7 @@ The project was trained and deployed using **Google Colab**, **Kaggle GPUs**, an
 ---
 
 ##  Project Overview:
-
+     
 This AI system aims to analyze football videos by:
 - Detecting **players**, **referees**, and **balls** in the field.
 - Extracting **pitch keypoints** for camera calibration and tactical visualization.
